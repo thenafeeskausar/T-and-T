@@ -1,0 +1,192 @@
+2<!DOCTYPE html>
+<html>
+<head>
+	<title>Package Booking</title>
+	<link rel="icon" href="icon.ico" sizes="16x16 32x32 64x64" type="image/png" />
+	<meta charset="UTF-8">
+	<meta name="description" content=" Apex Tours & Travels">
+	 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<style type="text/css">
+		form{
+			width:800px;
+			height: 800px;
+			border:3px solid #e6e6e6;
+			margin:auto;
+			top:0px;
+			bottom:0px;
+			left:0px;
+			right:0px;
+			background-color:white;
+			color:black;
+			position: absolute;
+			border-radius:20px;
+		}
+		h1{
+			color:orange;
+			margin-top:20px;
+			font-size:40px;
+			text-align: center;
+		}
+		form input{
+			margin-left: 250px;
+			width: 300px;
+			border-radius:5px;
+		}
+		form label{
+			margin-left:100px;
+		}
+		form sup{
+			color: red;
+		}
+		table{
+			width:100%;
+		}
+		table,td,th{
+			border:2px solid #e6e6e6;
+			border-collapse: collapse;
+			text-align:center;
+		}
+
+	</style>
+</head>
+<body style="min-height:600px;background:url(pics/hotel.jpg) center no-repeat;width:100%;position:relative;">
+	<div style="padding: 105px 0;background:rgba(0,0,0,0.6);color:white;min-height:900px;vertical-align:middle; font-size:20px;"></div>
+	<div class="box">
+		<form>
+			<h1>BOOK NOW</h1><br>
+			<label style="margin-left:30px;">Journey Date</label><sup>*</sup><input type="date" name="j_date"><br>
+			<b style="margin-left: 30px;">Select Category</b><br>
+			<label>AC Delux</label><input type="radio" name="ac"><br>
+				<div style="border:1px solid black;width:740px;height:76px;margin-left:30px;">
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>Price(per person)</th>
+								<th>No. of Person</th>
+								<th>Calculated Amount</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Ac Delux per head</td>
+								<td><i class="fa fa-rupee"> 650</i></td>
+								<td><input type="number" name="n_o_p" placeholder="Mul. of 1" style="width:100px;text-align:center;margin-left:10px;"></td>
+								<td><i class="fa fa-rupee"> 0.00</i></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>TOTAL</td>
+								<td><i class="fa fa-rupee"> 0.00</i></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><br>
+			<label>Non- AC</label><input type="radio" name="ac"><br>
+				<div style="border:1px solid black;width:740px;height:76px;margin-left:30px;">
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>Price(per person)</th>
+								<th>No. of Person</th>
+								<th>Calculated Amount</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Non AC per head</td>
+								<td><i class="fa fa-rupee"> 450</i></td>
+								<td><input type="number" name="n_o_p" placeholder="Mul. of 1" style="width:100px;text-align:center;margin-left:10px;"></td>
+								<td><i class="fa fa-rupee"> 0.00</i></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>TOTAL</td>
+								<td><i class="fa fa-rupee"> 0.00</i></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><br>
+			<b style="margin-left: 30px;">Passenger Details</b><br>
+			<label>Name</label><sup>*</sup> <input type="text" name="pname" style="margin-left:235px;"><br>
+			<label>Age</label><sup>*</sup><input type="number" name="page"><br>
+			<label>Gender</label><sup>*</sup><select style="margin-left:228px;width:300px;">
+						<option>Select</option>
+						<option>Male</option>
+						<option>Female</option>
+			</select><br>
+				<!-- <label style="margin-left:140px;">Male</label><input type="radio" name="pmale" value="male"><br>
+				<label style="margin-left:124px;">Female</label><input type="radio" name="pfemale" value="female"><br> -->
+			<label>Mobile No.</label><sup>*</sup><input type="number" name="pmobile" style="margin-left:208px;"><br>
+			<label>Email</label><sup>*</sup><input type="email" name="pmail" style="margin-left:241px;"><br>
+			<label>State</label><sup>*</sup><select style="margin-left:241px;width:300px;">
+										<option>Select</option>
+										<option>Andaman and Nicobar</option>
+										<option>Andhra Pradesh</option>
+										<option>Arunachal Pradesh</option>
+										<option>Assam</option>
+										<option>Bihar</option>
+										<option>Chandigarh</option>
+										<option>Chhattisgarh</option>
+										<option>Dadra and Nagar Haveli</option>
+										<option>Daman and Diu</option>
+										<option>Delhi</option>
+										<option>Goa</option>
+										<option>Gujarat</option>
+										<option>Haryana</option>
+										<option>Himachal Pradesh</option>
+										<option>Jharkhand</option>
+										<option>Karnataka</option>
+										<option>Kerala</option>
+										<option>Lakshdweep</option>
+										<option>Madhya Pradesh</option>
+										<option>Maharashtra</option>
+										<option>Manipur</option>
+										<option>Meghalaya</option>
+										<option>Mizoram</option>
+										<option>Nagaland</option>
+										<option>Orissa</option>
+										<option>Pondicherry</option>
+										<option>Punjab</option>
+										<option>Rajasthan</option>
+										<option>Sikkim</option>
+										<option>Tamil Nadu</option>
+										<option>Telangana</option>
+										<option>Tripura</option>
+										<option>Uttar Pradesh</option>
+										<option>Uttranchal</option>
+										<option>West Bengal</option>
+									</select><br>
+			<label>Address</label><input type="text" name="paddress" style="margin-left:223px;height:50px;"><br>
+			<label>Id Card Type</label><sup>*</sup><select style="margin-left:192px;width:300px;">
+												<option>Select</option>
+												<option>Aadhaar ID</option>
+												<option>Voter ID</option>
+												<option>Student ID</option>
+												<option>PAN CARD</option>
+												<option>Driving Licence</option>
+												<option>Govt Issue ID-Card</option>
+												<option>Passport</option>
+												<option>Bank Passbook</option>
+											</select><br>
+			<label>ID Card Number</label><sup>*</sup><input type="number" name="p_id_num" placeholder="Enter ID Number" style="margin-left:170px;" />
+			<input type="submit" name="ppaypack" value="Confirm & Pay" style="margin-left:440px;margin-top:50px;border:1px solid #5bbd0b;background-color:#5bbd0b;color:white;">
+
+		</form>
+	</div>
+
+</body>
+</html>

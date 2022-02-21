@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking</title>
+	<link rel="icon" href="icon.ico" sizes="16x16 32x32 64x64" type="image/png" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+<body>
+	<div class="main">
+		<div class="icon0">
+			<a href="home.html"><img src="" class="icon1"></a>
+			<div class="menu" style="width:256px;margin-left:1090px;margin-top: -121px;">
+				<ul>
+					<li>
+						<a href="home.html" target="_parent">Home</a>
+					</li>
+					<li>
+						<a href="mybooking/mybooking.html" target="_parent">My Booking</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bar-info"> 
+		<marquee direction="right" class="roll_over">
+			<span style="margin:0 10px">
+				<b><i class="fa fa-phone"></i>
+				1800119595 (Tollfree), +91-8510858301 </b>
+			</span>
+			<span style="margin: 0 5px">
+				<b><i  class="fa fa-envelope"></i>
+				<a href="mailto:info@apextourtravels.com" style="color:inherit; text-decoration:none;">info@FeesQueetravelandtourism.com</a></b>
+			</span>
+		</marquee>
+	</div>
+	<section style="min-height:900px;background:url(pics/hotel.jpg) center no-repeat;width:100%;position:relative;">
+		<div style="padding: 105px 0;background:rgba(0,0,0,0.6);color:white;min-height:900px;vertical-align:middle; font-size:20px;">
+			<h2 align="center" style="color:orange;margin-top:-105px;font-size:40px;"><b>HOTEL BOOKING</b></h2>
+			<form style="width:800px;height: 900px;border:1px solid #e6e6e6;margin:auto;top:0px;bottom:0px;left:0px;right:0px;background-color:white;color:black;"><br>
+				<span><b>Select Category</b></span>	<select>
+					<option>Select</option>
+					<option>Standard Hotel</option>
+					<option>Deluxe Hotel</option>
+				</select><br>
+				<span><b>Type</b></span> <select>
+					<option>Select</option>
+					<option>A.C</option>
+					<option>NON-A.C</option>
+				</select><br><br>
+				<span><b style="text-decoration:underline;">Passenger Details</b></span><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title<sup>*</sup><select>
+						<option>Mr.</option>
+						<option>Miss.</option>
+						<option>Mrs.</option>
+						<option>Dr.</option>
+						<option>Er.</option>
+					</select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name<sup>*</sup><input type="text" name="p_name" placeholder="Enter Name" style="margin-left:220px;" /><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No. of More Passenger<sup>*</sup><input type="number" name="no.of_p" placeholder="No. of Passenger" style="margin-left: 68px;"/><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age<sup>*</sup><input type="number" name="p_age" placeholder="Enter Age" style="margin-left:240px;" /><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label style="font-size:20px;font-weight:lighter;">Gender<sup>*</sup></label><br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Gender" value="male" style="width:30px;height:20px;">Male <br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Gender" value="Female" style="width:30px;height:20px;">Female<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Gender" value="other" style="width:30px;height:20px;">Other<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email<sup>*</sup><input type="mail" name="p_mail" placeholder="Enter Email" style="margin-left:220px;" /><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Date of Booking<sup>*</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="dob"><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile Number<sup>*</sup><input type="number" name="p_mob_num" placeholder="Enter Mobile Number" style="margin-left:135px;" /><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emg. Contact Number<input type="number" name="p_emg_num" placeholder="Enter Emergency Number" style="margin-left:80px;" /><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address :<br><textarea name="p_address" rows="5" style="height:auto;margin-left: 100px;width:576px;"></textarea><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State<sup>*</sup><select>
+										<option>Select</option>
+										<option>Andaman and Nicobar</option>
+										<option>Andhra Pradesh</option>
+										<option>Arunachal Pradesh</option>
+										<option>Assam</option>
+										<option>Bihar</option>
+										<option>Chandigarh</option>
+										<option>Chhattisgarh</option>
+										<option>Dadra and Nagar Haveli</option>
+										<option>Daman and Diu</option>
+										<option>Delhi</option>
+										<option>Goa</option>
+										<option>Gujarat</option>
+										<option>Haryana</option>
+										<option>Himachal Pradesh</option>
+										<option>Jharkhand</option>
+										<option>Karnataka</option>
+										<option>Kerala</option>
+										<option>Lakshdweep</option>
+										<option>Madhya Pradesh</option>
+										<option>Maharashtra</option>
+										<option>Manipur</option>
+										<option>Meghalaya</option>
+										<option>Mizoram</option>
+										<option>Nagaland</option>
+										<option>Orissa</option>
+										<option>Pondicherry</option>
+										<option>Punjab</option>
+										<option>Rajasthan</option>
+										<option>Sikkim</option>
+										<option>Tamil Nadu</option>
+										<option>Telangana</option>
+										<option>Tripura</option>
+										<option>Uttar Pradesh</option>
+										<option>Uttranchal</option>
+										<option>West Bengal</option>
+									</select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id Card Type<sup>*</sup><select>
+												<option>Select</option>
+												<option>Aadhaar ID</option>
+												<option>Voter ID</option>
+												<option>Student ID</option>
+												<option>PAN CARD</option>
+												<option>Driving Licence</option>
+												<option>Govt Issue ID-Card</option>
+												<option>Passport</option>
+												<option>Bank Passbook</option>
+											</select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID Card Number<sup>*</sup><input type="number" name="p_id_num" placeholder="Enter ID Number" style="margin-left:128px;" /><br><br>
+					<a  type="submit" href="#" style="float:right;margin-right:120px;border:1px solid #5bbd0b;background-color:#5bbd0b;width:300px;height:35px;color:white;border-radius:5px;text-align:center;">Confirm & Pay</a>
+
+			</form>
+		</div>		
+	</section>
+</body>
+</html>
