@@ -1,0 +1,275 @@
+body{
+	background:rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+}
+.main{
+	position:relative;
+	width: 900px;
+	height: inherit;
+	border:5px solid #cecece;
+	background-color: white;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin:auto;
+	overflow: hidden;
+}
+.strip1{
+	width: 890px;
+	height: 150px;
+	background-color:white;
+}
+.strip1 ul{
+	list-style: none;
+}
+.strip1 ul li{
+	display: inline-block;
+	width:50px;
+	height:40px;
+	color:black;
+}
+.menu{
+	width: 400px;
+	height: 50px;
+	float: right;
+	margin-top: 15px;
+	margin-right: -217px;
+}
+.menu a{
+	text-decoration:none;
+	font-size:20px;
+}
+.menu a #mhov:hover{
+	color: red;
+}
+.call{
+	float: right;
+	color: blue;
+	margin-right:-176px;
+	margin-top: 50px;
+	font-size:18px;
+}
+.mail{
+	float: right;
+	color: blue;
+	margin-right:-200px;
+	margin-top: 75px;
+	font-size:18px;
+}
+.social{
+	float: right;
+	margin-top: 108px;
+	margin-right: -290px;
+	letter-spacing: 10px;
+}
+.navbar{
+	width:100%;
+	height: 50px;
+	border:0.7px solid skyblue;
+	font-size: 15px;
+	background-color:#548baa;
+	font-weight: bolder;
+
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li{
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	width:111px;
+	margin-top: 8px;
+	color: white;
+}
+.navbar ul li button{
+	color: white;
+	background-color:#548baa; 
+	text-decoration: none;
+}
+.navbar ul li button:hover{
+	color: orange;
+}
+ul li button{
+	width: 130px;
+    height: 30px;
+    margin-top: -40px;
+    margin-right: 20px;
+    background-color: green;
+    color: white;
+    text-transform: none;
+    border-radius: 10px;
+}
+.whyus{
+	width: 100%;
+	height: 578px;
+	border:1px solid silver;
+	border-radius:5px;
+	/*background:rgba(0,0,0,0.4);
+	*/
+	background-color: white;
+	margin-top:-9px;
+	position:absolute;
+	
+}
+div ol li{
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.none{
+	display: none;
+}
+.carousel {
+    position: inherit;
+    margin-top: -6px;
+}
+.carousel-inner img{
+	width: 975px;
+	height: 313px;
+}
+.enquiry{
+	width: 270px;
+	height: 327px;
+	border:0.5px solid silver;
+	float:right;
+	margin-top: -345px;
+	margin-right: 20px;
+	background-color: #faf5f2;
+	border-radius:4px;
+	box-shadow: 1px 2px 2px 1px #548baa;
+}
+.enquiry form input{
+	width: 250px;
+	border-radius:7px;
+	margin-top:10px;
+}
+.enquiry form textarea{
+	width: 250px;
+	border-radius: 7px;
+	margin-top:10px;
+}
+.strip2{
+	width: 800px;
+	height:100px;
+	background-color:white;
+	border:0.7px solid silver;
+	margin-left: 50px;
+	padding: 3px;
+}
+.strip2 img{
+	margin-left: 50px;
+}
+.strip3{
+	width:100%;
+	height:30px;
+	background-color: #BF8652;
+	border:0.3px solid #BF8652;
+}
+.strip3 ul{
+	list-style-type: none;
+}
+.strip3 ul li{
+	display: inline-block;
+	margin-left:75px;
+}
+.strip3 ul li a{
+	color: white;
+	text-decoration: none;
+}
+.strip3 ul li a:hover{
+	color:blue;
+}
+
+.treat_menu{
+	width:250px;
+	height:100%;
+	/*border: 0.7px solid skyblue;*/
+    font-size: 15px;
+    /*background-color: #548baa;*/
+    font-weight: bolder;
+}
+.treat_menu ul{
+	list-style-type: none;
+}
+.treat_menu ul li{
+	display: inline-block;
+    margin-left:-30px;
+   /* padding: 5px;*/
+    width: 200px;
+    margin-top: 5px;
+    color: white;
+}
+.treat_menu ul li button{
+	color: white;
+	background-color:#548baa; 
+	text-decoration: none;
+}
+.treat_menu ul li button:hover{
+	color: orange;
+}
+.treat_menu ul li button{
+	width: 250px;
+    height: 30px;
+    color: white;
+    text-transform: none;
+    border-radius: 10px;
+}
+
+/* Medical Treatments */
+.cosmetic{
+	margin-top:-518px;
+	width:628px;
+	margin-left:262px;
+	height: 570px;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    background-color:white;
+    position: absolute;
+}
+.cosmetic p{
+	font-size:12px;
+	margin-left:10px;
+	width:611px;
+	margin-top:200px;
+}
+.cosmetic img{
+	width:200px;
+	height: 200px;
+}
+.treat_img img{
+	width: 200px;
+	height: 160px;
+	padding:2px;
+}
+.treat_img ul{
+	list-style-type: none;
+}
+.treat_img ul li{
+	display: inline-block;
+}
+.doctor{
+	margin-top:-518px;
+	width:890px;
+	margin-left:0px;
+	height: 570px;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    background-color:white;
+    position: absolute;	
+}
+.doctor1{
+	margin-top:-464px;
+	width:890px;
+	margin-left:263px;
+	height: 524px;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    background-color:white;
+    position: absolute;	
+}
+.hos_img img{
+	border:1px dotted black;
+	width:400px;
+}
